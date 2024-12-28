@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 24px 64px;
+  background-color: #f2f4f7;
+  max-width: 1440px;
+}
+.nav {
+  display: flex;
+  gap: 450px;
+}
+.link {
+  display: flex;
+  gap: 32px;
+}
+.navLink {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #101828;
+  text-decoration: none;
+}
+
+.navLink:hover,
+:focus {
+  color: #d84343;
+}

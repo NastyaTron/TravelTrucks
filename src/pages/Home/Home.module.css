@@ -1,0 +1,58 @@
+.container {
+  background-image: url(../../assets/img/home/Picture.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 2dppx),
+  (min-resolution: 192dpi) {
+  .container {
+    background-image: url(../../assets/img/home/Picture2x.jpg);
+  }
+}
+.page {
+  padding: 260px 64px;
+}
+.titel {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.66667;
+  color: #f7f7f7;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.text {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.33333;
+  padding-top: 16px;
+  padding-bottom: 40px;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+  border-radius: 200px;
+  padding: 16px 48.5spx;
+  width: 173px;
+  height: 56px;
+  background-color: #e44848;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.01em;
+  color: #fff;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.button:hover,
+:focus {
+  background-color: #d84343;
+}
